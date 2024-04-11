@@ -1,0 +1,9 @@
+{
+  "interpreter": "python3 -m",
+  "command": "selfchecker.main",
+  "path": "/opt/SelfCheckerPlus",
+  "batch_size": 128,
+  "var_threshold": 0.00001,
+  "only_activation_layers": true,
+  "only_dense_layers": true
+}

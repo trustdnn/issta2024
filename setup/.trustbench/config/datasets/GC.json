@@ -1,0 +1,22 @@
+{
+  "GC": {
+    "collect": {
+      "source": "kaggle",
+      "kwargs": {
+        "owner": "kabure",
+        "dataset_name": "german-credit-data-with-risk"
+      }
+    },
+    "preprocess": {
+      "labels_col": "Risk",
+      "options": {
+        "train_split": 800,
+        "scale": true,
+        "binarize": true,
+        "factorize": ["Risk"],
+        "drop": ["Saving accounts_rich", "Purpose_vacation/others"]
+      }
+    },
+    "format": "csv"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "interpreter": "python3 -m",
+  "command": "deepinfer.main",
+  "path": "/opt/DeepInferPlus",
+  "condition": ">=",
+  "prediction_interval": 0.95
+}

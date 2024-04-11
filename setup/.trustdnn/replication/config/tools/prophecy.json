@@ -1,0 +1,9 @@
+{
+  "interpreter": "python3 -m",
+  "command": "prophecy.main",
+  "path": "/opt/ProphecyPlus",
+  "only_activation_layers": true,
+  "only_dense_layers": true,
+  "random_state": 42,
+  "skip_rules": true
+}
