@@ -14,7 +14,7 @@ In this repository, we provide the artifacts and replication package for our ISS
 Run the following commands to obtain the replication package (requires close to 6 GB of available storage):
 
 ```shell
-$ docker push trustdnn/issta2024:replication_package
+$ docker pull trustdnn/issta2024:replication_package
 $ mkdir experiments
 # This will instantiate a docker container named `replication` in your environment which will map the local folder `experiments` with the `experiments` folder in the container 
 $ docker run -it -v ${PWD}/experiments:/experiments trustdnn/issta2024:replication_package /bin/bash
