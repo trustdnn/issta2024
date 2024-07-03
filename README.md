@@ -6,7 +6,8 @@ In this repository, we provide the artifacts and replication package for our ISS
 
 ### Requirements:
 - Docker
-- linux/amd64 (OS/Arch)
+- Any Linux distribution that supports Docker (the container was built for amd64 arch) 
+  - Docker Desktop may allow running the container on Windows/MacOS (depending on your systems specs)
 - 9GB of available storage
 
 
