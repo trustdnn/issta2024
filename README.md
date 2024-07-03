@@ -46,12 +46,12 @@ $ trustdnn evaluate -wd /workdir effectiveness -i
 ## What is inside the Docker image?
 
 We placed an anonymized version of the benchmark, framework, and tools under `/opt` folder. 
-We also made publicly avaliable their anonymized repository under the following links:
-- TrustDNN (https://anonymous.4open.science/r/TrustDNN-2A1E)
-- TrustBench (https://anonymous.4open.science/r/TrustBench-574C)
-- Prophecy (https://anonymous.4open.science/r/Prophecy-77F5)
-- DeepInfer (https://anonymous.4open.science/r/DeepInfer-FDF7)
-- SelfChecker (https://anonymous.4open.science/r/SelfChecker-E7FB)
+We also made publicly available their repository under the following links:
+- TrustDNN (https://github.com/epicosy/TrustDNN)
+- TrustBench (https://github.com/epicosy/TrustBench)
+- Prophecy (https://github.com/epicosy/ProphecyPlus)
+- DeepInfer (https://github.com/epicosy/DeepInferPlus)
+- SelfChecker (https://github.com/epicosy/SelfCheckerPlus)
 
 Please consider those links for more information on their usage.
 
@@ -59,7 +59,13 @@ The configurations for the tools are placed under `/.trustdnn`.
 The configurations for the datasets are placed under `/.trustbench`. 
 You can also find those in this repository under `setup` directory.
 
-The configuration for the models have been removed for anonymity reasons.
+The configuration for the models are not included in the Docker Image but can be found at https://github.com/epicosy/TrustBench/tree/main/config/models
+The models are placed under `/.trustbench/models/` and are publicly available at:
+- Bank Customers (https://www.kaggle.com/models/eduardpinconschi/bm)
+- CIFAR10 (https://www.kaggle.com/models/eduardpinconschi/cifar10)
+- German Credit (https://www.kaggle.com/models/eduardpinconschi/gc)
+- House Price (https://www.kaggle.com/models/eduardpinconschi/hp)
+- PIMA Diabetes (https://www.kaggle.com/models/eduardpinconschi/pd)
 
 Our version of the artifacts from DeepInfer's replication package are placed under `/.deepinfer_artifacts`. For TrustDNN to operate with those artifacts, we had to create dummy files for the training datasets since DeepInfer's replication package does not provide them.
 
