@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/785131424.svg)](https://zenodo.org/doi/10.5281/zenodo.12803632)
+
 # Replication Pacakge for ISSTA2024
 
 In this repository, we provide the artifacts, results, and replication package for our ISSTA2024 submission "Evaluating Deep Neural Networks in Deployment - A Comparative Study (Replicability Study)". We prepared a self-contained [Docker image](https://hub.docker.com/layers/trustdnn/issta2024/replication_package/images/sha256-1d532853f0e005cf77a9f82288f58350a1130044cf96c8b0d50bfc118aaa1620?context=explore) that includes the code, datasets, models, configurations, and scripts for reproducing and replicating our evaluation and results.
