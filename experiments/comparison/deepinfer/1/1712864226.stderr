@@ -1,0 +1,2 @@
+/opt/DeepInferPlus/deepinfer/core.py:49: RuntimeWarning: invalid value encountered in matmul
+  gamma = np.matmul(weight_matrix_tr, symmetric_matrix_inverse)

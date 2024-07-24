@@ -1,0 +1,78 @@
+idx,corr,inc,corr_layer,inc_layer,eval
+0,3,1,"['dense_2', 'dense_3', 'dense_1']",['dense'],correct
+1,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+2,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+3,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+4,3,1,"['dense_2', 'dense', 'dense_3']",['dense_1'],correct
+5,2,2,"['dense_2', 'dense_1']","['dense', 'dense_3']",uncertain
+6,3,1,"['dense_2', 'dense', 'dense_1']",['dense_3'],correct
+7,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+8,3,1,"['dense_2', 'dense_3', 'dense_1']",['dense'],correct
+9,2,2,"['dense_2', 'dense_3']","['dense', 'dense_1']",uncertain
+10,2,2,"['dense', 'dense_1']","['dense_2', 'dense_3']",uncertain
+11,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+12,3,1,"['dense_2', 'dense_3', 'dense_1']",['dense'],correct
+13,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+14,1,3,['dense'],"['dense_2', 'dense_3', 'dense_1']",incorrect
+15,3,1,"['dense_2', 'dense_3', 'dense_1']",['dense'],correct
+16,3,1,"['dense_2', 'dense_3', 'dense_1']",['dense'],correct
+17,3,1,"['dense_2', 'dense_3', 'dense_1']",['dense'],correct
+18,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+19,3,1,"['dense_2', 'dense', 'dense_3']",['dense_1'],correct
+20,3,1,"['dense_2', 'dense', 'dense_3']",['dense_1'],correct
+21,3,1,"['dense_2', 'dense_3', 'dense_1']",['dense'],correct
+22,1,3,['dense'],"['dense_2', 'dense_3', 'dense_1']",incorrect
+23,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+24,2,2,"['dense', 'dense_1']","['dense_2', 'dense_3']",uncertain
+25,2,2,"['dense', 'dense_1']","['dense_2', 'dense_3']",uncertain
+26,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+27,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+28,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+29,3,1,"['dense_2', 'dense_3', 'dense_1']",['dense'],correct
+30,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+31,3,1,"['dense_2', 'dense', 'dense_3']",['dense_1'],correct
+32,3,1,"['dense', 'dense_3', 'dense_1']",['dense_2'],correct
+33,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+34,0,4,[],"['dense_2', 'dense', 'dense_3', 'dense_1']",incorrect
+35,3,1,"['dense_2', 'dense_3', 'dense_1']",['dense'],correct
+36,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+37,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+38,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+39,3,1,"['dense_2', 'dense_3', 'dense_1']",['dense'],correct
+40,2,2,"['dense', 'dense_1']","['dense_2', 'dense_3']",uncertain
+41,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+42,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+43,2,2,"['dense_3', 'dense_1']","['dense_2', 'dense']",uncertain
+44,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+45,3,1,"['dense_2', 'dense', 'dense_3']",['dense_1'],correct
+46,0,4,[],"['dense_2', 'dense', 'dense_3', 'dense_1']",incorrect
+47,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+48,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+49,3,1,"['dense_2', 'dense', 'dense_1']",['dense_3'],correct
+50,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+51,3,1,"['dense_2', 'dense_3', 'dense_1']",['dense'],correct
+52,1,3,['dense_3'],"['dense_2', 'dense', 'dense_1']",incorrect
+53,3,1,"['dense_2', 'dense_3', 'dense_1']",['dense'],correct
+54,3,1,"['dense', 'dense_3', 'dense_1']",['dense_2'],correct
+55,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+56,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+57,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+58,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+59,3,1,"['dense_2', 'dense_3', 'dense_1']",['dense'],correct
+60,2,2,"['dense_2', 'dense_1']","['dense', 'dense_3']",uncertain
+61,2,2,"['dense', 'dense_1']","['dense_2', 'dense_3']",uncertain
+62,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+63,3,1,"['dense_2', 'dense', 'dense_3']",['dense_1'],correct
+64,2,2,"['dense', 'dense_1']","['dense_2', 'dense_3']",uncertain
+65,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+66,1,3,['dense_1'],"['dense_2', 'dense', 'dense_3']",incorrect
+67,0,4,[],"['dense_2', 'dense', 'dense_3', 'dense_1']",incorrect
+68,3,1,"['dense', 'dense_3', 'dense_1']",['dense_2'],correct
+69,3,1,"['dense_2', 'dense_3', 'dense_1']",['dense'],correct
+70,3,1,"['dense_2', 'dense', 'dense_1']",['dense_3'],correct
+71,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+72,1,3,['dense_1'],"['dense_2', 'dense', 'dense_3']",incorrect
+73,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+74,1,3,['dense'],"['dense_2', 'dense_3', 'dense_1']",incorrect
+75,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct
+76,4,0,"['dense_2', 'dense', 'dense_3', 'dense_1']",[],correct

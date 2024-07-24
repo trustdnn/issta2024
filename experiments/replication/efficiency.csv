@@ -1,0 +1,11 @@
+tool,phase,dataset,duration,memory
+deepinfer,analyze,BM,3.15,666.22
+deepinfer,analyze,GC,2.84,667.09
+deepinfer,analyze,HP,2.62,658.31
+deepinfer,analyze,PD,2.61,670.04
+deepinfer,infer,BM,2.67,644.01
+deepinfer,infer,GC,2.63,634.95
+deepinfer,infer,HP,2.62,651.38
+deepinfer,infer,PD,2.62,650.71
+selfchecker,analyze,CIFAR10,619.24,220609.5
+selfchecker,infer,CIFAR10,354.89,19225.39

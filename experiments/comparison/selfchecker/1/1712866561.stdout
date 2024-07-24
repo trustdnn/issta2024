@@ -1,0 +1,46 @@
+[name: "/device:CPU:0"
+device_type: "CPU"
+memory_limit: 268435456
+locality {
+}
+incarnation: 4321948992640247860
+xla_global_id: -1
+]
+Dense layers and associated activation layers are considered: ['dense', 'dense_1']
+Number of classes: 2
+[92m### y_test len:100 ###[0m
+[94m[test] [0mModel serving
+
+1/1 [==============================] - ETA: 0s
+1/1 [==============================] - 0s 117ms/step
+[94m[test] [0mProcessing ATs
+Layer: dense
+Layer: dense_1
+[92mtest ATs is saved at /experiments/comparison/selfchecker/1/GC1/test_dense_dense_1_ats.npy[0m
+[94mLayer: dense[0m
+[92mThe number of removed columns: 1[0m
+[94mload kdes from file: /experiments/comparison/selfchecker/1/GC1/kdes-pack/dense[0m
+[94m[dense] [0mFetching KDE inference
+
+test:   0%|          | 0/2 [00:00<?, ?it/s]
+test: 100%|██████████| 2/2 [00:00<00:00, 89.81it/s]
+model accuracy: test, 0.67
+kde accuracy:test, 0.65
+[94mLayer: dense_1[0m
+[92mThe number of removed columns: 0[0m
+[94mload kdes from file: /experiments/comparison/selfchecker/1/GC1/kdes-pack/dense_1[0m
+[94m[dense_1] [0mFetching KDE inference
+
+test:   0%|          | 0/2 [00:00<?, ?it/s]
+test: 100%|██████████| 2/2 [00:00<00:00, 558.79it/s]
+model accuracy: test, 0.67
+kde accuracy:test, 0.57
+
+label: 0
+
+label: 1
+TP:0, FP:10, TN:57, FN:33, TPR:0.000000, FPR:14.930000, F1:0.000000
+model accuracy: 0.67
+kde accuracy: 0.57
+True Positive Rate: 0.0
+False Positive Rate: 0.14925373134328357

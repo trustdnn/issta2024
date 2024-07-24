@@ -1,0 +1,170 @@
+[name: "/device:CPU:0"
+device_type: "CPU"
+memory_limit: 268435456
+locality {
+}
+incarnation: 11330553263675919498
+xla_global_id: -1
+]
+Dense layers and associated activation layers are considered: ['dense', 'dense_1', 'dense_2', 'dense_3']
+Number of classes: 2
+[94m### y_train len:800 ###[0m
+[92m### y_valid len:100 ###[0m
+[94m[train] [0mModel serving
+
+1/7 [===>..........................] - ETA: 0s
+7/7 [==============================] - 0s 1ms/step
+[94m[train] [0mProcessing ATs
+Layer: dense
+Layer: dense_1
+Layer: dense_2
+Layer: dense_3
+[92mtrain ATs is saved at /experiments/comparison/selfchecker/1/GC9/train_dense_dense_1_dense_2_dense_3_ats.npy[0m
+[94m[valid] [0mModel serving
+
+1/1 [==============================] - ETA: 0s
+1/1 [==============================] - 0s 44ms/step
+[94m[valid] [0mProcessing ATs
+Layer: dense
+Layer: dense_1
+Layer: dense_2
+Layer: dense_3
+[92mvalid ATs is saved at /experiments/comparison/selfchecker/1/GC9/valid_dense_dense_1_dense_2_dense_3_ats.npy[0m
+[94mLayer: dense[0m
+layer_index: 0, var_threshold: 1e-05
+[94mcalc kdes...[0m
+
+kde:   0%|          | 0/2 [00:00<?, ?it/s]refined ats shape: (50, 561)
+refined ats min max -0.8995534181594849 ; 0.8990616202354431 
+min_kde: 2.6523110646624464e+48
+max_kde: 2.44890656693625e+49
+refined ats shape: (50, 239)
+refined ats min max -0.9126078486442566 ; 0.895713210105896 
+min_kde: 8.597048373712076e+47
+max_kde: 2.6873815817295667e+48
+
+kde: 100%|██████████| 2/2 [00:00<00:00, 49.76it/s]
+gaussian_kde(refined_ats) shape[1] sum: 800
+[92mThe number of removed columns: 0[0m
+[94m[dense] [0mFetching KDE inference
+
+valid:   0%|          | 0/2 [00:00<?, ?it/s]
+valid: 100%|██████████| 2/2 [00:00<00:00, 186.18it/s]
+model accuracy: valid, 0.72
+kde accuracy:valid, 0.71
+[94mLayer: dense_1[0m
+layer_index: 1, var_threshold: 0
+[94mcalc kdes...[0m
+
+kde:   0%|          | 0/2 [00:00<?, ?it/s]refined ats shape: (22, 561)
+refined ats min max 0.0 ; 2.336815357208252 
+min_kde: 1.6569497399648248e+16
+max_kde: 2.4166134332199725e+17
+refined ats shape: (22, 239)
+refined ats min max 0.0 ; 2.2627155780792236 
+min_kde: 1446188995186322.0
+max_kde: 7060788506580803.0
+
+kde: 100%|██████████| 2/2 [00:00<00:00, 79.10it/s]
+gaussian_kde(refined_ats) shape[1] sum: 800
+[92mThe number of removed columns: 0[0m
+[94m[dense_1] [0mFetching KDE inference
+
+valid:   0%|          | 0/2 [00:00<?, ?it/s]
+valid: 100%|██████████| 2/2 [00:00<00:00, 312.25it/s]
+model accuracy: valid, 0.72
+kde accuracy:valid, 0.72
+[94mLayer: dense_2[0m
+layer_index: 2, var_threshold: 0
+[94mcalc kdes...[0m
+
+kde:   0%|          | 0/2 [00:00<?, ?it/s]refined ats shape: (22, 561)
+refined ats min max 0.0 ; 4.304819583892822 
+LinAlgError: singular matrix
+refined_ats shape: (22, 561)
+refined_ats min max 0.0 ; 4.304819583892822 
+Regularizing KDE
+min_kde: 141229203.61381325
+max_kde: 12938259336.513006
+refined ats shape: (22, 239)
+refined ats min max 0.0 ; 4.0084428787231445 
+LinAlgError: singular matrix
+refined_ats shape: (22, 239)
+refined_ats min max 0.0 ; 4.0084428787231445 
+Regularizing KDE
+min_kde: 233383661.75793058
+max_kde: 5639857184.429832
+
+kde: 100%|██████████| 2/2 [00:00<00:00, 78.80it/s]
+gaussian_kde(refined_ats) shape[1] sum: 800
+[92mThe number of removed columns: 0[0m
+[94m[dense_2] [0mFetching KDE inference
+
+valid:   0%|          | 0/2 [00:00<?, ?it/s]
+valid: 100%|██████████| 2/2 [00:00<00:00, 314.49it/s]
+model accuracy: valid, 0.72
+kde accuracy:valid, 0.69
+[94mLayer: dense_3[0m
+layer_index: 3, var_threshold: 0
+[94mcalc kdes...[0m
+
+kde:   0%|          | 0/2 [00:00<?, ?it/s]refined ats shape: (1, 561)
+refined ats min max 0.0006723916158080101 ; 0.1441536694765091 
+min_kde: 0.17814851675535495
+max_kde: 69.93148769088195
+refined ats shape: (1, 239)
+refined ats min max 0.0009210759308189154 ; 0.13081376254558563 
+min_kde: 0.4471431430833096
+max_kde: 42.08729480465412
+
+kde: 100%|██████████| 2/2 [00:00<00:00, 160.85it/s]
+gaussian_kde(refined_ats) shape[1] sum: 800
+[92mThe number of removed columns: 0[0m
+[94m[dense_3] [0mFetching KDE inference
+
+valid:   0%|          | 0/2 [00:00<?, ?it/s]
+valid: 100%|██████████| 2/2 [00:00<00:00, 699.98it/s]
+model accuracy: valid, 0.72
+kde accuracy:valid, 0.74
+label: 0
+count: 1
+count: 2
+count: 3
+count: 4
+selected layers: (0, 3)
+TPR:0.571429 FPR:0.277778 F1:0.500000 TP:16 FP:20 FN:12 TN:52
+label: 1
+count: 1
+count: 2
+count: 3
+count: 4
+selected layers: (0, 1, 2, 3)
+TPR:0.000000 FPR:0.000000 F1:0.000000 TP:0 FP:0 FN:0 TN:0
+label: 0
+label: 0, total_len: 36, label_con: 0, len: 20
+selected layers: (1, 3), acc: 0.95
+model acc: 1.0
+
+label: 0, total_len: 36, label_con: 1, len: 16
+selected layers: (3,), acc: 0.75
+model acc: 0.0
+
+label: 1
+label: 1, total_len: 0, label_con: 0, len: 0
+check!
+label: 1, total_len: 0, label_con: 1, len: 0
+check!
+label: 0
+label: 0, total_len: 64, label_con: 0, len: 52
+selected layers: (0, 1, 2, 3), acc: 1.0
+model acc: 1.0
+
+label: 0, total_len: 64, label_con: 1, len: 12
+selected layers: (0, 1, 2, 3), acc: 0.0
+model acc: 0.0
+
+label: 1
+label: 1, total_len: 0, label_con: 0, len: 0
+check!
+label: 1, total_len: 0, label_con: 1, len: 0
+check!

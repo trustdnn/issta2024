@@ -1,0 +1,151 @@
+[name: "/device:CPU:0"
+device_type: "CPU"
+memory_limit: 268435456
+locality {
+}
+incarnation: 6492004250641954026
+xla_global_id: -1
+]
+Dense layers and associated activation layers are considered: ['dense', 'dense_1', 'dense_2']
+Number of classes: 2
+[94m### y_train len:8462 ###[0m
+[92m### y_valid len:1058 ###[0m
+[94m[train] [0mModel serving
+
+ 1/67 [..............................] - ETA: 9s
+52/67 [======================>.......] - ETA: 0s
+67/67 [==============================] - 0s 966us/step
+[94m[train] [0mProcessing ATs
+Layer: dense
+Layer: dense_1
+Layer: dense_2
+[92mtrain ATs is saved at /experiments/comparison/selfchecker/1/BM2/train_dense_dense_1_dense_2_ats.npy[0m
+[94m[valid] [0mModel serving
+
+1/9 [==>...........................] - ETA: 0s
+9/9 [==============================] - 0s 1ms/step
+[94m[valid] [0mProcessing ATs
+Layer: dense
+Layer: dense_1
+Layer: dense_2
+[92mvalid ATs is saved at /experiments/comparison/selfchecker/1/BM2/valid_dense_dense_1_dense_2_ats.npy[0m
+[94mLayer: dense[0m
+layer_index: 0, var_threshold: 1e-05
+[94mcalc kdes...[0m
+
+kde:   0%|          | 0/2 [00:00<?, ?it/s]refined ats shape: (32, 4197)
+refined ats min max 0.0 ; 19207.013671875 
+min_kde: 5.725568090559258e-34
+max_kde: 5.35877695387555e-32
+
+kde:  50%|█████     | 1/2 [00:00<00:00,  1.39it/s]refined ats shape: (32, 4265)
+refined ats min max 0.0 ; 15756.298828125 
+LinAlgError: singular matrix
+refined_ats shape: (32, 4265)
+refined_ats min max 0.0 ; 15756.298828125 
+Regularizing KDE
+min_kde: 8.810509164841359e-36
+max_kde: 1.0734017444732402e-33
+
+kde: 100%|██████████| 2/2 [00:01<00:00,  1.38it/s]
+kde: 100%|██████████| 2/2 [00:01<00:00,  1.38it/s]
+gaussian_kde(refined_ats) shape[1] sum: 8462
+[92mThe number of removed columns: 0[0m
+[94m[dense] [0mFetching KDE inference
+
+valid:   0%|          | 0/2 [00:00<?, ?it/s]
+valid:  50%|█████     | 1/2 [00:00<00:00,  4.53it/s]
+valid: 100%|██████████| 2/2 [00:00<00:00,  4.48it/s]
+valid: 100%|██████████| 2/2 [00:00<00:00,  4.49it/s]
+model accuracy: valid, 0.5406427221172023
+kde accuracy:valid, 0.7674858223062382
+[94mLayer: dense_1[0m
+layer_index: 1, var_threshold: 0
+[94mcalc kdes...[0m
+
+kde:   0%|          | 0/2 [00:00<?, ?it/s]refined ats shape: (16, 4197)
+refined ats min max 0.0 ; 12293.943359375 
+min_kde: 7.197706868907552e-20
+max_kde: 2.182855584480529e-17
+
+kde:  50%|█████     | 1/2 [00:00<00:00,  2.34it/s]refined ats shape: (16, 4265)
+refined ats min max 0.0 ; 10150.30078125 
+min_kde: 2.6565376984248487e-17
+max_kde: 4.690683063753955e-15
+
+kde: 100%|██████████| 2/2 [00:00<00:00,  2.30it/s]
+kde: 100%|██████████| 2/2 [00:00<00:00,  2.30it/s]
+gaussian_kde(refined_ats) shape[1] sum: 8462
+[92mThe number of removed columns: 0[0m
+[94m[dense_1] [0mFetching KDE inference
+
+valid:   0%|          | 0/2 [00:00<?, ?it/s]
+valid:  50%|█████     | 1/2 [00:00<00:00,  6.35it/s]
+valid: 100%|██████████| 2/2 [00:00<00:00,  6.23it/s]
+valid: 100%|██████████| 2/2 [00:00<00:00,  6.24it/s]
+model accuracy: valid, 0.5406427221172023
+kde accuracy:valid, 0.5179584120982986
+[94mLayer: dense_2[0m
+layer_index: 2, var_threshold: 0
+[94mcalc kdes...[0m
+
+kde:   0%|          | 0/2 [00:00<?, ?it/s]refined ats shape: (1, 4197)
+refined ats min max 8.202400245832259e-16 ; 1.0 
+min_kde: 0.3765930975500357
+max_kde: 2.9226084953047664
+
+kde:  50%|█████     | 1/2 [00:00<00:00,  6.09it/s]refined ats shape: (1, 4265)
+refined ats min max 2.608938530102023e-06 ; 1.0 
+min_kde: 0.16294820462115467
+max_kde: 4.390614228356616
+
+kde: 100%|██████████| 2/2 [00:00<00:00,  5.98it/s]
+kde: 100%|██████████| 2/2 [00:00<00:00,  5.99it/s]
+gaussian_kde(refined_ats) shape[1] sum: 8462
+[92mThe number of removed columns: 0[0m
+[94m[dense_2] [0mFetching KDE inference
+
+valid:   0%|          | 0/2 [00:00<?, ?it/s]
+valid: 100%|██████████| 2/2 [00:00<00:00, 23.62it/s]
+model accuracy: valid, 0.5406427221172023
+kde accuracy:valid, 0.8137996219281664
+label: 0
+count: 1
+count: 2
+count: 3
+selected layers: (0, 1, 2)
+TPR:0.874486 FPR:0.239510 F1:0.811069 TP:425 FP:137 FN:61 TN:435
+label: 1
+count: 1
+count: 2
+count: 3
+selected layers: (0, 1, 2)
+TPR:0.000000 FPR:0.000000 F1:0.000000 TP:0 FP:0 FN:0 TN:0
+label: 0
+label: 0, total_len: 562, label_con: 0, len: 137
+selected layers: (0, 2), acc: 0.5766423357664233
+model acc: 1.0
+
+label: 0, total_len: 562, label_con: 1, len: 425
+selected layers: (0, 1, 2), acc: 1.0
+model acc: 0.0
+
+label: 1
+label: 1, total_len: 0, label_con: 0, len: 0
+check!
+label: 1, total_len: 0, label_con: 1, len: 0
+check!
+label: 0
+label: 0, total_len: 496, label_con: 0, len: 435
+selected layers: (0, 1, 2), acc: 1.0
+model acc: 1.0
+
+label: 0, total_len: 496, label_con: 1, len: 61
+selected layers: (1,), acc: 0.9836065573770492
+model acc: 0.0
+
+label: 1
+label: 1, total_len: 0, label_con: 0, len: 0
+check!
+label: 1, total_len: 0, label_con: 1, len: 0
+check!

@@ -1,0 +1,15 @@
+{
+    "threshold": 0.0,
+    "wp_dict": {
+        "LotArea": 0.0,
+        "OverallQual": 0.0,
+        "OverallCond": 0.0,
+        "TotalBsmtSF": 0.0,
+        "FullBath": 0.0,
+        "HalfBath": 0.0,
+        "BedroomAbvGr": 0.0,
+        "TotRmsAbvGrd": 0.0,
+        "Fireplaces": 0.0,
+        "GarageArea": 0.0
+    }
+}

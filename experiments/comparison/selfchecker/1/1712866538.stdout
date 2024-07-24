@@ -1,0 +1,58 @@
+[name: "/device:CPU:0"
+device_type: "CPU"
+memory_limit: 268435456
+locality {
+}
+incarnation: 6132873381467471688
+xla_global_id: -1
+]
+Dense layers and associated activation layers are considered: ['dense', 'dense_1', 'dense_2']
+Number of classes: 2
+[92m### y_test len:1058 ###[0m
+[94m[test] [0mModel serving
+
+1/9 [==>...........................] - ETA: 0s
+9/9 [==============================] - 0s 1ms/step
+[94m[test] [0mProcessing ATs
+Layer: dense
+Layer: dense_1
+Layer: dense_2
+[92mtest ATs is saved at /experiments/comparison/selfchecker/1/BM6/test_dense_dense_1_dense_2_ats.npy[0m
+[94mLayer: dense[0m
+[92mThe number of removed columns: 0[0m
+[94mload kdes from file: /experiments/comparison/selfchecker/1/BM6/kdes-pack/dense[0m
+[94m[dense] [0mFetching KDE inference
+
+test:   0%|          | 0/2 [00:00<?, ?it/s]
+test: 100%|██████████| 2/2 [00:00<00:00, 12.05it/s]
+test: 100%|██████████| 2/2 [00:00<00:00, 12.04it/s]
+model accuracy: test, 0.4914933837429111
+kde accuracy:test, 0.7835538752362949
+[94mLayer: dense_1[0m
+[92mThe number of removed columns: 0[0m
+[94mload kdes from file: /experiments/comparison/selfchecker/1/BM6/kdes-pack/dense_1[0m
+[94m[dense_1] [0mFetching KDE inference
+
+test:   0%|          | 0/2 [00:00<?, ?it/s]
+test: 100%|██████████| 2/2 [00:00<00:00, 13.58it/s]
+test: 100%|██████████| 2/2 [00:00<00:00, 13.57it/s]
+model accuracy: test, 0.4914933837429111
+kde accuracy:test, 0.5708884688090737
+[94mLayer: dense_2[0m
+[92mThe number of removed columns: 0[0m
+[94mload kdes from file: /experiments/comparison/selfchecker/1/BM6/kdes-pack/dense_2[0m
+[94m[dense_2] [0mFetching KDE inference
+
+test:   0%|          | 0/2 [00:00<?, ?it/s]
+test: 100%|██████████| 2/2 [00:00<00:00, 20.96it/s]
+model accuracy: test, 0.4914933837429111
+kde accuracy:test, 0.7977315689981096
+
+label: 0
+
+label: 1
+TP:535, FP:450, TN:70, FN:3, TPR:99.440000, FPR:86.540000, F1:70.260000
+model accuracy: 0.4914933837429111
+kde accuracy: 0.5718336483931947
+True Positive Rate: 0.9944237918215614
+False Positive Rate: 0.8653846153846154

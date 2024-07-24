@@ -1,0 +1,66 @@
+[name: "/device:CPU:0"
+device_type: "CPU"
+memory_limit: 268435456
+locality {
+}
+incarnation: 12790736319214988621
+xla_global_id: -1
+]
+Dense layers and associated activation layers are considered: ['dense', 'dense_1', 'dense_2', 'dense_3']
+Number of classes: 2
+[92m### y_test len:77 ###[0m
+[94m[test] [0mModel serving
+
+1/1 [==============================] - ETA: 0s
+1/1 [==============================] - 0s 124ms/step
+[94m[test] [0mProcessing ATs
+Layer: dense
+Layer: dense_1
+Layer: dense_2
+Layer: dense_3
+[92mtest ATs is saved at /experiments/comparison/selfchecker/1/PD4/test_dense_dense_1_dense_2_dense_3_ats.npy[0m
+[94mLayer: dense[0m
+[92mThe number of removed columns: 2[0m
+[94mload kdes from file: /experiments/comparison/selfchecker/1/PD4/kdes-pack/dense[0m
+[94m[dense] [0mFetching KDE inference
+
+test:   0%|          | 0/2 [00:00<?, ?it/s]
+test: 100%|██████████| 2/2 [00:00<00:00, 1164.92it/s]
+model accuracy: test, 0.5844155844155844
+kde accuracy:test, 0.6493506493506493
+[94mLayer: dense_1[0m
+[92mThe number of removed columns: 0[0m
+[94mload kdes from file: /experiments/comparison/selfchecker/1/PD4/kdes-pack/dense_1[0m
+[94m[dense_1] [0mFetching KDE inference
+
+test:   0%|          | 0/2 [00:00<?, ?it/s]
+test: 100%|██████████| 2/2 [00:00<00:00, 1460.16it/s]
+model accuracy: test, 0.5844155844155844
+kde accuracy:test, 0.6493506493506493
+[94mLayer: dense_2[0m
+[92mThe number of removed columns: 0[0m
+[94mload kdes from file: /experiments/comparison/selfchecker/1/PD4/kdes-pack/dense_2[0m
+[94m[dense_2] [0mFetching KDE inference
+
+test:   0%|          | 0/2 [00:00<?, ?it/s]
+test: 100%|██████████| 2/2 [00:00<00:00, 1472.20it/s]
+model accuracy: test, 0.5844155844155844
+kde accuracy:test, 0.7532467532467533
+[94mLayer: dense_3[0m
+[92mThe number of removed columns: 0[0m
+[94mload kdes from file: /experiments/comparison/selfchecker/1/PD4/kdes-pack/dense_3[0m
+[94m[dense_3] [0mFetching KDE inference
+
+test:   0%|          | 0/2 [00:00<?, ?it/s]
+test: 100%|██████████| 2/2 [00:00<00:00, 2105.57it/s]
+model accuracy: test, 0.5844155844155844
+kde accuracy:test, 0.8181818181818182
+
+label: 0
+
+label: 1
+TP:24, FP:6, TN:39, FN:8, TPR:75.000000, FPR:13.330000, F1:77.420000
+model accuracy: 0.5844155844155844
+kde accuracy: 0.8181818181818182
+True Positive Rate: 0.75
+False Positive Rate: 0.13333333333333333

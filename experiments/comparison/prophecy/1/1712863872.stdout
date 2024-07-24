@@ -1,0 +1,28 @@
+Dense layers and associated activation layers are considered for fingerprinting
+Layers to be considered for fingerprinting: ['dense', 'dense_1', 'dense_2']
+
+1/5 [=====>........................] - ETA: 0s
+5/5 [==============================] - 0s 1ms/step
+
+Evaluating train set:   0%|          | 0/614 [00:00<?, ?it/s]
+Evaluating train set: 100%|██████████| 614/614 [00:00<00:00, 429360.23it/s]
+TRAIN: Label 0: 562 Label 1: 53
+TRAIN LABELS: (614,)
+TRAIN ACCURACY: 65.96091205211727
+TRAIN LABELS COUNT: {0: 405, 1000: 209}
+Invoking Dec-tree classifier based on FEATURES
+
+Fingerprinting TRAIN data after dense layer
+Fingerprint after dense. ((614, 12) inputs, (614, 12) neurons)
+
+Fingerprinting TRAIN data after dense_1 layer
+Fingerprint after dense_1. ((614, 8) inputs, (614, 8) neurons)
+
+Fingerprinting TRAIN data after dense_2 layer
+Fingerprint after dense_2. ((614, 1) inputs, (614, 1) neurons)
+Inputs: (neuron signature (On/Off activations) dataset)(labels dataset)
+(614, 12) (614,)
+Inputs: (neuron signature (On/Off activations) dataset)(labels dataset)
+(614, 8) (614,)
+Inputs: (neuron signature (On/Off activations) dataset)(labels dataset)
+(614, 1) (614,)

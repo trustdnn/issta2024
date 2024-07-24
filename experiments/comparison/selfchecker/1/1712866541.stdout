@@ -1,0 +1,59 @@
+[name: "/device:CPU:0"
+device_type: "CPU"
+memory_limit: 268435456
+locality {
+}
+incarnation: 3435198926120052639
+xla_global_id: -1
+]
+Dense layers and associated activation layers are considered: ['dense', 'dense_1', 'dense_2']
+Number of classes: 2
+[92m### y_test len:1058 ###[0m
+[94m[test] [0mModel serving
+
+1/9 [==>...........................] - ETA: 0s
+9/9 [==============================] - 0s 2ms/step
+[94m[test] [0mProcessing ATs
+Layer: dense
+Layer: dense_1
+Layer: dense_2
+[92mtest ATs is saved at /experiments/comparison/selfchecker/1/BM10/test_dense_dense_1_dense_2_ats.npy[0m
+[94mLayer: dense[0m
+[92mThe number of removed columns: 0[0m
+[94mload kdes from file: /experiments/comparison/selfchecker/1/BM10/kdes-pack/dense[0m
+[94m[dense] [0mFetching KDE inference
+
+test:   0%|          | 0/2 [00:00<?, ?it/s]
+test: 100%|██████████| 2/2 [00:00<00:00, 12.56it/s]
+test: 100%|██████████| 2/2 [00:00<00:00, 12.55it/s]
+model accuracy: test, 0.4914933837429111
+kde accuracy:test, 0.6937618147448015
+[94mLayer: dense_1[0m
+[92mThe number of removed columns: 0[0m
+[94mload kdes from file: /experiments/comparison/selfchecker/1/BM10/kdes-pack/dense_1[0m
+[94m[dense_1] [0mFetching KDE inference
+
+test:   0%|          | 0/2 [00:00<?, ?it/s]
+test:  50%|█████     | 1/2 [00:00<00:00,  4.81it/s]
+test: 100%|██████████| 2/2 [00:00<00:00,  4.78it/s]
+test: 100%|██████████| 2/2 [00:00<00:00,  4.78it/s]
+model accuracy: test, 0.4914933837429111
+kde accuracy:test, 0.5642722117202268
+[94mLayer: dense_2[0m
+[92mThe number of removed columns: 0[0m
+[94mload kdes from file: /experiments/comparison/selfchecker/1/BM10/kdes-pack/dense_2[0m
+[94m[dense_2] [0mFetching KDE inference
+
+test:   0%|          | 0/2 [00:00<?, ?it/s]
+test: 100%|██████████| 2/2 [00:00<00:00, 36.13it/s]
+model accuracy: test, 0.4914933837429111
+kde accuracy:test, 0.4914933837429111
+
+label: 0
+
+label: 1
+TP:248, FP:28, TN:492, FN:290, TPR:46.100000, FPR:5.380000, F1:60.930000
+model accuracy: 0.4914933837429111
+kde accuracy: 0.6937618147448015
+True Positive Rate: 0.46096654275092935
+False Positive Rate: 0.05384615384615385

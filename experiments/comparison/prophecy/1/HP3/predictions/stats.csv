@@ -1,0 +1,147 @@
+idx,corr,inc,corr_layer,inc_layer,eval
+0,2,1,"['dense', 'dense_1']",['dense_2'],correct
+1,2,1,"['dense', 'dense_1']",['dense_2'],correct
+2,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+3,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+4,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+5,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+6,2,1,"['dense', 'dense_1']",['dense_2'],correct
+7,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+8,2,1,"['dense', 'dense_1']",['dense_2'],correct
+9,1,2,['dense_1'],"['dense_2', 'dense']",incorrect
+10,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+11,2,1,"['dense', 'dense_1']",['dense_2'],correct
+12,2,1,"['dense', 'dense_1']",['dense_2'],correct
+13,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+14,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+15,1,2,['dense_1'],"['dense_2', 'dense']",incorrect
+16,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+17,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+18,2,1,"['dense', 'dense_1']",['dense_2'],correct
+19,1,2,['dense_1'],"['dense_2', 'dense']",incorrect
+20,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+21,1,2,['dense'],"['dense_2', 'dense_1']",incorrect
+22,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+23,2,1,"['dense', 'dense_1']",['dense_2'],correct
+24,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+25,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+26,2,1,"['dense', 'dense_1']",['dense_2'],correct
+27,2,1,"['dense', 'dense_1']",['dense_2'],correct
+28,2,1,"['dense', 'dense_1']",['dense_2'],correct
+29,2,1,"['dense', 'dense_1']",['dense_2'],correct
+30,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+31,1,2,['dense'],"['dense_2', 'dense_1']",incorrect
+32,2,1,"['dense', 'dense_1']",['dense_2'],correct
+33,2,1,"['dense', 'dense_1']",['dense_2'],correct
+34,2,1,"['dense', 'dense_1']",['dense_2'],correct
+35,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+36,2,1,"['dense', 'dense_1']",['dense_2'],correct
+37,2,1,"['dense', 'dense_1']",['dense_2'],correct
+38,2,1,"['dense', 'dense_1']",['dense_2'],correct
+39,1,2,['dense'],"['dense_2', 'dense_1']",incorrect
+40,2,1,"['dense', 'dense_1']",['dense_2'],correct
+41,1,2,['dense_1'],"['dense_2', 'dense']",incorrect
+42,2,1,"['dense', 'dense_1']",['dense_2'],correct
+43,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+44,1,2,['dense'],"['dense_2', 'dense_1']",incorrect
+45,2,1,"['dense', 'dense_1']",['dense_2'],correct
+46,2,1,"['dense', 'dense_1']",['dense_2'],correct
+47,2,1,"['dense', 'dense_1']",['dense_2'],correct
+48,1,2,['dense_1'],"['dense_2', 'dense']",incorrect
+49,2,1,"['dense', 'dense_1']",['dense_2'],correct
+50,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+51,2,1,"['dense', 'dense_1']",['dense_2'],correct
+52,1,2,['dense_1'],"['dense_2', 'dense']",incorrect
+53,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+54,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+55,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+56,2,1,"['dense', 'dense_1']",['dense_2'],correct
+57,1,2,['dense'],"['dense_2', 'dense_1']",incorrect
+58,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+59,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+60,1,2,['dense'],"['dense_2', 'dense_1']",incorrect
+61,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+62,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+63,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+64,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+65,1,2,['dense_1'],"['dense_2', 'dense']",incorrect
+66,1,2,['dense_1'],"['dense_2', 'dense']",incorrect
+67,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+68,2,1,"['dense', 'dense_1']",['dense_2'],correct
+69,2,1,"['dense', 'dense_1']",['dense_2'],correct
+70,1,2,['dense_1'],"['dense_2', 'dense']",incorrect
+71,2,1,"['dense', 'dense_1']",['dense_2'],correct
+72,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+73,2,1,"['dense', 'dense_1']",['dense_2'],correct
+74,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+75,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+76,2,1,"['dense', 'dense_1']",['dense_2'],correct
+77,1,2,['dense'],"['dense_2', 'dense_1']",incorrect
+78,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+79,2,1,"['dense', 'dense_1']",['dense_2'],correct
+80,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+81,2,1,"['dense', 'dense_1']",['dense_2'],correct
+82,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+83,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+84,2,1,"['dense', 'dense_1']",['dense_2'],correct
+85,2,1,"['dense', 'dense_1']",['dense_2'],correct
+86,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+87,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+88,2,1,"['dense', 'dense_1']",['dense_2'],correct
+89,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+90,2,1,"['dense', 'dense_1']",['dense_2'],correct
+91,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+92,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+93,2,1,"['dense', 'dense_1']",['dense_2'],correct
+94,2,1,"['dense', 'dense_1']",['dense_2'],correct
+95,2,1,"['dense', 'dense_1']",['dense_2'],correct
+96,1,2,['dense_1'],"['dense_2', 'dense']",incorrect
+97,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+98,1,2,['dense_1'],"['dense_2', 'dense']",incorrect
+99,2,1,"['dense', 'dense_1']",['dense_2'],correct
+100,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+101,2,1,"['dense', 'dense_1']",['dense_2'],correct
+102,2,1,"['dense', 'dense_1']",['dense_2'],correct
+103,2,1,"['dense', 'dense_1']",['dense_2'],correct
+104,2,1,"['dense', 'dense_1']",['dense_2'],correct
+105,2,1,"['dense', 'dense_1']",['dense_2'],correct
+106,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+107,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+108,2,1,"['dense', 'dense_1']",['dense_2'],correct
+109,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+110,1,2,['dense'],"['dense_2', 'dense_1']",incorrect
+111,1,2,['dense'],"['dense_2', 'dense_1']",incorrect
+112,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+113,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+114,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+115,1,2,['dense_1'],"['dense_2', 'dense']",incorrect
+116,2,1,"['dense', 'dense_1']",['dense_2'],correct
+117,2,1,"['dense', 'dense_1']",['dense_2'],correct
+118,2,1,"['dense', 'dense_1']",['dense_2'],correct
+119,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+120,1,2,['dense'],"['dense_2', 'dense_1']",incorrect
+121,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+122,2,1,"['dense', 'dense_1']",['dense_2'],correct
+123,2,1,"['dense', 'dense_1']",['dense_2'],correct
+124,2,1,"['dense', 'dense_1']",['dense_2'],correct
+125,1,2,['dense_1'],"['dense_2', 'dense']",incorrect
+126,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+127,2,1,"['dense', 'dense_1']",['dense_2'],correct
+128,2,1,"['dense', 'dense_1']",['dense_2'],correct
+129,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+130,1,2,['dense'],"['dense_2', 'dense_1']",incorrect
+131,2,1,"['dense', 'dense_1']",['dense_2'],correct
+132,2,1,"['dense', 'dense_1']",['dense_2'],correct
+133,2,1,"['dense', 'dense_1']",['dense_2'],correct
+134,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+135,2,1,"['dense', 'dense_1']",['dense_2'],correct
+136,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+137,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+138,2,1,"['dense', 'dense_1']",['dense_2'],correct
+139,2,1,"['dense', 'dense_1']",['dense_2'],correct
+140,0,3,[],"['dense_2', 'dense', 'dense_1']",incorrect
+141,2,1,"['dense', 'dense_1']",['dense_2'],correct
+142,2,1,"['dense', 'dense_1']",['dense_2'],correct
+143,1,2,['dense_1'],"['dense_2', 'dense']",incorrect
+144,2,1,"['dense', 'dense_1']",['dense_2'],correct
+145,2,1,"['dense', 'dense_1']",['dense_2'],correct

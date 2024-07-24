@@ -1,0 +1,155 @@
+conv2d_1
+activation_1
+conv2d_2
+activation_2
+max_pooling2d_1
+conv2d_3
+activation_3
+conv2d_4
+activation_4
+max_pooling2d_2
+conv2d_5
+activation_5
+conv2d_6
+activation_6
+max_pooling2d_3
+flatten_1
+dropout_1
+
+ 1/79 [..............................] - ETA: 19s
+ 3/79 [>.............................] - ETA: 3s 
+ 5/79 [>.............................] - ETA: 2s
+ 7/79 [=>............................] - ETA: 2s
+ 9/79 [==>...........................] - ETA: 2s
+11/79 [===>..........................] - ETA: 2s
+13/79 [===>..........................] - ETA: 2s
+15/79 [====>.........................] - ETA: 2s
+17/79 [=====>........................] - ETA: 2s
+19/79 [======>.......................] - ETA: 2s
+21/79 [======>.......................] - ETA: 2s
+23/79 [=======>......................] - ETA: 2s
+25/79 [========>.....................] - ETA: 1s
+27/79 [=========>....................] - ETA: 1s
+29/79 [==========>...................] - ETA: 1s
+31/79 [==========>...................] - ETA: 1s
+33/79 [===========>..................] - ETA: 1s
+35/79 [============>.................] - ETA: 1s
+37/79 [=============>................] - ETA: 1s
+39/79 [=============>................] - ETA: 1s
+41/79 [==============>...............] - ETA: 1s
+43/79 [===============>..............] - ETA: 1s
+45/79 [================>.............] - ETA: 1s
+47/79 [================>.............] - ETA: 1s
+49/79 [=================>............] - ETA: 1s
+51/79 [==================>...........] - ETA: 1s
+53/79 [===================>..........] - ETA: 0s
+55/79 [===================>..........] - ETA: 0s
+57/79 [====================>.........] - ETA: 0s
+59/79 [=====================>........] - ETA: 0s
+61/79 [======================>.......] - ETA: 0s
+63/79 [======================>.......] - ETA: 0s
+65/79 [=======================>......] - ETA: 0s
+67/79 [========================>.....] - ETA: 0s
+69/79 [=========================>....] - ETA: 0s
+71/79 [=========================>....] - ETA: 0s
+73/79 [==========================>...] - ETA: 0s
+75/79 [===========================>..] - ETA: 0s
+77/79 [============================>.] - ETA: 0s
+79/79 [==============================] - ETA: 0s
+79/79 [==============================] - 3s 36ms/step
+
+Checking precondition violation:   0%|          | 0/2048 [00:00<?, ?it/s]
+Checking precondition violation:   1%|          | 17/2048 [00:00<00:12, 166.18it/s]
+Checking precondition violation:   2%|▏         | 39/2048 [00:00<00:10, 194.69it/s]
+Checking precondition violation:   3%|▎         | 61/2048 [00:00<00:09, 204.80it/s]
+Checking precondition violation:   4%|▍         | 83/2048 [00:00<00:09, 209.29it/s]
+Checking precondition violation:   5%|▌         | 105/2048 [00:00<00:09, 211.97it/s]
+Checking precondition violation:   6%|▌         | 127/2048 [00:00<00:08, 213.54it/s]
+Checking precondition violation:   7%|▋         | 149/2048 [00:00<00:08, 214.66it/s]
+Checking precondition violation:   8%|▊         | 171/2048 [00:00<00:08, 214.53it/s]
+Checking precondition violation:   9%|▉         | 193/2048 [00:00<00:08, 213.92it/s]
+Checking precondition violation:  10%|█         | 215/2048 [00:01<00:08, 214.85it/s]
+Checking precondition violation:  12%|█▏        | 237/2048 [00:01<00:08, 215.27it/s]
+Checking precondition violation:  13%|█▎        | 259/2048 [00:01<00:08, 215.67it/s]
+Checking precondition violation:  14%|█▎        | 281/2048 [00:01<00:08, 216.08it/s]
+Checking precondition violation:  15%|█▍        | 303/2048 [00:01<00:08, 216.15it/s]
+Checking precondition violation:  16%|█▌        | 325/2048 [00:01<00:07, 216.20it/s]
+Checking precondition violation:  17%|█▋        | 347/2048 [00:01<00:07, 215.51it/s]
+Checking precondition violation:  18%|█▊        | 369/2048 [00:01<00:07, 215.81it/s]
+Checking precondition violation:  19%|█▉        | 391/2048 [00:01<00:07, 215.90it/s]
+Checking precondition violation:  20%|██        | 413/2048 [00:01<00:07, 216.31it/s]
+Checking precondition violation:  21%|██        | 435/2048 [00:02<00:07, 216.27it/s]
+Checking precondition violation:  22%|██▏       | 457/2048 [00:02<00:07, 216.49it/s]
+Checking precondition violation:  23%|██▎       | 479/2048 [00:02<00:07, 216.53it/s]
+Checking precondition violation:  24%|██▍       | 501/2048 [00:02<00:07, 215.87it/s]
+Checking precondition violation:  26%|██▌       | 523/2048 [00:02<00:07, 216.44it/s]
+Checking precondition violation:  27%|██▋       | 545/2048 [00:02<00:06, 216.51it/s]
+Checking precondition violation:  28%|██▊       | 567/2048 [00:02<00:06, 216.34it/s]
+Checking precondition violation:  29%|██▉       | 589/2048 [00:02<00:06, 216.31it/s]
+Checking precondition violation:  30%|██▉       | 611/2048 [00:02<00:06, 215.91it/s]
+Checking precondition violation:  31%|███       | 633/2048 [00:02<00:06, 215.85it/s]
+Checking precondition violation:  32%|███▏      | 655/2048 [00:03<00:06, 216.07it/s]
+Checking precondition violation:  33%|███▎      | 677/2048 [00:03<00:06, 216.03it/s]
+Checking precondition violation:  34%|███▍      | 699/2048 [00:03<00:06, 216.32it/s]
+Checking precondition violation:  35%|███▌      | 721/2048 [00:03<00:06, 215.47it/s]
+Checking precondition violation:  36%|███▋      | 743/2048 [00:03<00:06, 215.75it/s]
+Checking precondition violation:  37%|███▋      | 765/2048 [00:03<00:05, 216.22it/s]
+Checking precondition violation:  38%|███▊      | 787/2048 [00:03<00:05, 216.41it/s]
+Checking precondition violation:  40%|███▉      | 809/2048 [00:03<00:05, 216.12it/s]
+Checking precondition violation:  41%|████      | 831/2048 [00:03<00:05, 216.37it/s]
+Checking precondition violation:  42%|████▏     | 853/2048 [00:03<00:05, 216.09it/s]
+Checking precondition violation:  43%|████▎     | 875/2048 [00:04<00:05, 216.42it/s]
+Checking precondition violation:  44%|████▍     | 897/2048 [00:04<00:05, 215.92it/s]
+Checking precondition violation:  45%|████▍     | 919/2048 [00:04<00:05, 216.51it/s]
+Checking precondition violation:  46%|████▌     | 941/2048 [00:04<00:05, 215.56it/s]
+Checking precondition violation:  47%|████▋     | 963/2048 [00:04<00:05, 215.56it/s]
+Checking precondition violation:  48%|████▊     | 985/2048 [00:04<00:04, 216.04it/s]
+Checking precondition violation:  49%|████▉     | 1007/2048 [00:04<00:04, 216.29it/s]
+Checking precondition violation:  50%|█████     | 1029/2048 [00:04<00:04, 216.49it/s]
+Checking precondition violation:  51%|█████▏    | 1051/2048 [00:04<00:04, 216.71it/s]
+Checking precondition violation:  52%|█████▏    | 1073/2048 [00:04<00:04, 215.64it/s]
+Checking precondition violation:  53%|█████▎    | 1095/2048 [00:05<00:04, 216.05it/s]
+Checking precondition violation:  55%|█████▍    | 1117/2048 [00:05<00:04, 216.24it/s]
+Checking precondition violation:  56%|█████▌    | 1139/2048 [00:05<00:04, 215.86it/s]
+Checking precondition violation:  57%|█████▋    | 1161/2048 [00:05<00:04, 216.00it/s]
+Checking precondition violation:  58%|█████▊    | 1183/2048 [00:05<00:05, 162.46it/s]
+Checking precondition violation:  59%|█████▉    | 1205/2048 [00:05<00:04, 175.35it/s]
+Checking precondition violation:  60%|█████▉    | 1227/2048 [00:05<00:04, 186.17it/s]
+Checking precondition violation:  61%|██████    | 1249/2048 [00:05<00:04, 194.41it/s]
+Checking precondition violation:  62%|██████▏   | 1271/2048 [00:06<00:03, 200.41it/s]
+Checking precondition violation:  63%|██████▎   | 1293/2048 [00:06<00:03, 204.85it/s]
+Checking precondition violation:  64%|██████▍   | 1315/2048 [00:06<00:03, 208.14it/s]
+Checking precondition violation:  65%|██████▌   | 1337/2048 [00:06<00:03, 210.39it/s]
+Checking precondition violation:  66%|██████▋   | 1359/2048 [00:06<00:03, 211.57it/s]
+Checking precondition violation:  67%|██████▋   | 1381/2048 [00:06<00:03, 212.51it/s]
+Checking precondition violation:  69%|██████▊   | 1403/2048 [00:06<00:03, 214.06it/s]
+Checking precondition violation:  70%|██████▉   | 1425/2048 [00:06<00:02, 215.09it/s]
+Checking precondition violation:  71%|███████   | 1447/2048 [00:06<00:02, 215.29it/s]
+Checking precondition violation:  72%|███████▏  | 1469/2048 [00:06<00:02, 215.98it/s]
+Checking precondition violation:  73%|███████▎  | 1491/2048 [00:07<00:02, 216.40it/s]
+Checking precondition violation:  74%|███████▍  | 1513/2048 [00:07<00:02, 216.89it/s]
+Checking precondition violation:  75%|███████▍  | 1535/2048 [00:07<00:02, 217.22it/s]
+Checking precondition violation:  76%|███████▌  | 1557/2048 [00:07<00:02, 217.43it/s]
+Checking precondition violation:  77%|███████▋  | 1579/2048 [00:07<00:02, 217.50it/s]
+Checking precondition violation:  78%|███████▊  | 1601/2048 [00:07<00:02, 217.48it/s]
+Checking precondition violation:  79%|███████▉  | 1623/2048 [00:07<00:01, 217.45it/s]
+Checking precondition violation:  80%|████████  | 1645/2048 [00:07<00:01, 217.52it/s]
+Checking precondition violation:  81%|████████▏ | 1667/2048 [00:07<00:01, 217.54it/s]
+Checking precondition violation:  82%|████████▏ | 1689/2048 [00:07<00:01, 217.42it/s]
+Checking precondition violation:  84%|████████▎ | 1711/2048 [00:08<00:01, 217.30it/s]
+Checking precondition violation:  85%|████████▍ | 1733/2048 [00:08<00:01, 217.19it/s]
+Checking precondition violation:  86%|████████▌ | 1755/2048 [00:08<00:01, 217.14it/s]
+Checking precondition violation:  87%|████████▋ | 1777/2048 [00:08<00:01, 216.92it/s]
+Checking precondition violation:  88%|████████▊ | 1799/2048 [00:08<00:01, 217.21it/s]
+Checking precondition violation:  89%|████████▉ | 1821/2048 [00:08<00:01, 216.80it/s]
+Checking precondition violation:  90%|████████▉ | 1843/2048 [00:08<00:00, 217.10it/s]
+Checking precondition violation:  91%|█████████ | 1865/2048 [00:08<00:00, 217.07it/s]
+Checking precondition violation:  92%|█████████▏| 1887/2048 [00:08<00:00, 216.27it/s]
+Checking precondition violation:  93%|█████████▎| 1909/2048 [00:08<00:00, 216.20it/s]
+Checking precondition violation:  94%|█████████▍| 1931/2048 [00:09<00:00, 216.72it/s]
+Checking precondition violation:  95%|█████████▌| 1953/2048 [00:09<00:00, 216.85it/s]
+Checking precondition violation:  96%|█████████▋| 1975/2048 [00:09<00:00, 217.20it/s]
+Checking precondition violation:  98%|█████████▊| 1997/2048 [00:09<00:00, 216.90it/s]
+Checking precondition violation:  99%|█████████▊| 2019/2048 [00:09<00:00, 217.06it/s]
+Checking precondition violation: 100%|█████████▉| 2041/2048 [00:09<00:00, 217.49it/s]
+Checking precondition violation: 100%|██████████| 2048/2048 [00:09<00:00, 213.34it/s]

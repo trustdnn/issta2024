@@ -1,0 +1,27 @@
+{
+    "threshold": 6.03,
+    "wp_dict": {
+        "Age": 0.015090689063072205,
+        "Job": 0.007862217724323273,
+        "Credit amount": 0.009722947143018246,
+        "Duration": -0.05469677969813347,
+        "Sex_female": 0.047532156109809875,
+        "Sex_male": -0.019407765939831734,
+        "Housing_free": -0.009924597106873989,
+        "Housing_own": -0.06968003511428833,
+        "Housing_rent": 0.019105786457657814,
+        "Saving accounts_little": -0.05339326336979866,
+        "Saving accounts_moderate": -0.004990559536963701,
+        "Saving accounts_quite rich": 0.016610614955425262,
+        "Checking account_little": -0.017931770533323288,
+        "Checking account_moderate": 0.04851512983441353,
+        "Checking account_rich": -0.03852878510951996,
+        "Purpose_business": 0.008812537416815758,
+        "Purpose_car": -0.013904334977269173,
+        "Purpose_domestic appliances": -0.001619988470338285,
+        "Purpose_education": 0.05420024320483208,
+        "Purpose_furniture/equipment": 0.007738946471363306,
+        "Purpose_radio/TV": -0.027058547362685204,
+        "Purpose_repairs": -0.011474584229290485
+    }
+}

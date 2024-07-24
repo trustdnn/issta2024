@@ -1,0 +1,144 @@
+[name: "/device:CPU:0"
+device_type: "CPU"
+memory_limit: 268435456
+locality {
+}
+incarnation: 12304977932263512943
+xla_global_id: -1
+]
+Dense layers and associated activation layers are considered: ['dense', 'dense_1', 'dense_2']
+Number of classes: 2
+[94m### y_train len:800 ###[0m
+[92m### y_valid len:100 ###[0m
+[94m[train] [0mModel serving
+
+1/7 [===>..........................] - ETA: 0s
+7/7 [==============================] - 0s 2ms/step
+[94m[train] [0mProcessing ATs
+Layer: dense
+Layer: dense_1
+Layer: dense_2
+[92mtrain ATs is saved at /experiments/comparison/selfchecker/1/GC6/train_dense_dense_1_dense_2_ats.npy[0m
+[94m[valid] [0mModel serving
+
+1/1 [==============================] - ETA: 0s
+1/1 [==============================] - 0s 40ms/step
+[94m[valid] [0mProcessing ATs
+Layer: dense
+Layer: dense_1
+Layer: dense_2
+[92mvalid ATs is saved at /experiments/comparison/selfchecker/1/GC6/valid_dense_dense_1_dense_2_ats.npy[0m
+[94mLayer: dense[0m
+layer_index: 0, var_threshold: 1e-05
+[94mcalc kdes...[0m
+
+kde:   0%|          | 0/2 [00:00<?, ?it/s]refined ats shape: (50, 561)
+refined ats min max -0.9262709021568298 ; 0.929165780544281 
+min_kde: 6.501074479750147e+47
+max_kde: 5.889385515955013e+48
+refined ats shape: (50, 239)
+refined ats min max -0.9288325309753418 ; 0.9284014105796814 
+min_kde: 5.862169270175383e+46
+max_kde: 1.5009593446045997e+47
+
+kde: 100%|██████████| 2/2 [00:00<00:00, 44.53it/s]
+gaussian_kde(refined_ats) shape[1] sum: 800
+[92mThe number of removed columns: 0[0m
+[94m[dense] [0mFetching KDE inference
+
+valid:   0%|          | 0/2 [00:00<?, ?it/s]
+valid: 100%|██████████| 2/2 [00:00<00:00, 173.68it/s]
+model accuracy: valid, 0.72
+kde accuracy:valid, 0.73
+[94mLayer: dense_1[0m
+layer_index: 1, var_threshold: 0
+[94mcalc kdes...[0m
+
+kde:   0%|          | 0/2 [00:00<?, ?it/s]refined ats shape: (22, 561)
+refined ats min max 0.0 ; 2.5538604259490967 
+LinAlgError: singular matrix
+refined_ats shape: (22, 561)
+refined_ats min max 0.0 ; 2.5538604259490967 
+Regularizing KDE
+min_kde: 2116459.9385771165
+max_kde: 117186017.21882759
+refined ats shape: (22, 239)
+refined ats min max 0.0 ; 2.524303674697876 
+LinAlgError: singular matrix
+refined_ats shape: (22, 239)
+refined_ats min max 0.0 ; 2.524303674697876 
+Regularizing KDE
+min_kde: 3526260.9690109873
+max_kde: 53326861.6275341
+
+kde: 100%|██████████| 2/2 [00:00<00:00, 68.40it/s]
+gaussian_kde(refined_ats) shape[1] sum: 800
+[92mThe number of removed columns: 0[0m
+[94m[dense_1] [0mFetching KDE inference
+
+valid:   0%|          | 0/2 [00:00<?, ?it/s]
+valid: 100%|██████████| 2/2 [00:00<00:00, 314.12it/s]
+model accuracy: valid, 0.72
+kde accuracy:valid, 0.65
+[94mLayer: dense_2[0m
+layer_index: 2, var_threshold: 0
+[94mcalc kdes...[0m
+
+kde:   0%|          | 0/2 [00:00<?, ?it/s]refined ats shape: (1, 561)
+refined ats min max 0.002010897034779191 ; 0.14805154502391815 
+min_kde: 0.21493658175609026
+max_kde: 78.08308099832708
+refined ats shape: (1, 239)
+refined ats min max 0.0024678269401192665 ; 0.13324834406375885 
+min_kde: 0.3370034903469854
+max_kde: 51.927254685134564
+
+kde: 100%|██████████| 2/2 [00:00<00:00, 157.02it/s]
+gaussian_kde(refined_ats) shape[1] sum: 800
+[92mThe number of removed columns: 0[0m
+[94m[dense_2] [0mFetching KDE inference
+
+valid:   0%|          | 0/2 [00:00<?, ?it/s]
+valid: 100%|██████████| 2/2 [00:00<00:00, 707.78it/s]
+model accuracy: valid, 0.72
+kde accuracy:valid, 0.7
+label: 0
+count: 1
+count: 2
+count: 3
+selected layers: (0, 1, 2)
+TPR:0.464286 FPR:0.138889 F1:0.509804 TP:13 FP:10 FN:15 TN:62
+label: 1
+count: 1
+count: 2
+count: 3
+selected layers: (0, 1, 2)
+TPR:0.000000 FPR:0.000000 F1:0.000000 TP:0 FP:0 FN:0 TN:0
+label: 0
+label: 0, total_len: 23, label_con: 0, len: 10
+selected layers: (0, 2), acc: 0.7
+model acc: 1.0
+
+label: 0, total_len: 23, label_con: 1, len: 13
+selected layers: (0, 1, 2), acc: 1.0
+model acc: 0.0
+
+label: 1
+label: 1, total_len: 0, label_con: 0, len: 0
+check!
+label: 1, total_len: 0, label_con: 1, len: 0
+check!
+label: 0
+label: 0, total_len: 77, label_con: 0, len: 62
+selected layers: (0, 1, 2), acc: 1.0
+model acc: 1.0
+
+label: 0, total_len: 77, label_con: 1, len: 15
+selected layers: (2,), acc: 0.13333333333333333
+model acc: 0.0
+
+label: 1
+label: 1, total_len: 0, label_con: 0, len: 0
+check!
+label: 1, total_len: 0, label_con: 1, len: 0
+check!

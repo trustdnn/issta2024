@@ -1,0 +1,72 @@
+[name: "/device:CPU:0"
+device_type: "CPU"
+memory_limit: 268435456
+locality {
+}
+incarnation: 2000654438829250046
+xla_global_id: -1
+]
+Dense layers and associated activation layers are considered: ['dense', 'dense_1', 'dense_2', 'dense_3']
+Number of classes: 2
+[92m### y_test len:1058 ###[0m
+[94m[test] [0mModel serving
+
+1/9 [==>...........................] - ETA: 1s
+9/9 [==============================] - 0s 2ms/step
+[94m[test] [0mProcessing ATs
+Layer: dense
+Layer: dense_1
+Layer: dense_2
+Layer: dense_3
+[92mtest ATs is saved at /experiments/comparison/selfchecker/1/BM4/test_dense_dense_1_dense_2_dense_3_ats.npy[0m
+[94mLayer: dense[0m
+[92mThe number of removed columns: 1[0m
+[94mload kdes from file: /experiments/comparison/selfchecker/1/BM4/kdes-pack/dense[0m
+[94m[dense] [0mFetching KDE inference
+
+test:   0%|          | 0/2 [00:00<?, ?it/s]
+test:  50%|█████     | 1/2 [00:00<00:00,  1.24it/s]
+test: 100%|██████████| 2/2 [00:01<00:00,  1.23it/s]
+test: 100%|██████████| 2/2 [00:01<00:00,  1.23it/s]
+model accuracy: test, 0.4914933837429111
+kde accuracy:test, 0.7930056710775047
+[94mLayer: dense_1[0m
+[92mThe number of removed columns: 0[0m
+[94mload kdes from file: /experiments/comparison/selfchecker/1/BM4/kdes-pack/dense_1[0m
+[94m[dense_1] [0mFetching KDE inference
+
+test:   0%|          | 0/2 [00:00<?, ?it/s]
+test:  50%|█████     | 1/2 [00:00<00:00,  1.92it/s]
+test: 100%|██████████| 2/2 [00:01<00:00,  1.88it/s]
+test: 100%|██████████| 2/2 [00:01<00:00,  1.88it/s]
+model accuracy: test, 0.4914933837429111
+kde accuracy:test, 0.5954631379962193
+[94mLayer: dense_2[0m
+[92mThe number of removed columns: 0[0m
+[94mload kdes from file: /experiments/comparison/selfchecker/1/BM4/kdes-pack/dense_2[0m
+[94m[dense_2] [0mFetching KDE inference
+
+test:   0%|          | 0/2 [00:00<?, ?it/s]
+test:  50%|█████     | 1/2 [00:00<00:00,  3.41it/s]
+test: 100%|██████████| 2/2 [00:00<00:00,  3.30it/s]
+test: 100%|██████████| 2/2 [00:00<00:00,  3.32it/s]
+model accuracy: test, 0.4914933837429111
+kde accuracy:test, 0.6351606805293005
+[94mLayer: dense_3[0m
+[92mThe number of removed columns: 0[0m
+[94mload kdes from file: /experiments/comparison/selfchecker/1/BM4/kdes-pack/dense_3[0m
+[94m[dense_3] [0mFetching KDE inference
+
+test:   0%|          | 0/2 [00:00<?, ?it/s]
+test: 100%|██████████| 2/2 [00:00<00:00, 23.79it/s]
+model accuracy: test, 0.4914933837429111
+kde accuracy:test, 0.7986767485822306
+
+label: 0
+
+label: 1
+TP:535, FP:424, TN:96, FN:3, TPR:99.440000, FPR:81.540000, F1:71.480000
+model accuracy: 0.4914933837429111
+kde accuracy: 0.5964083175803403
+True Positive Rate: 0.9944237918215614
+False Positive Rate: 0.8153846153846154
