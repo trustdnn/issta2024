@@ -1,1 +1,12 @@
-experiments/* filter=lfs diff=lfs merge=lfs -text
+experiments/replication/selfchecker/1/CIFAR10/test_activation_1_activation_2_activation_3_activation_4_activation_5_ats.npy filter=lfs diff=lfs merge=lfs -text
+experiments/replication/selfchecker/1/CIFAR10/train_activation_1_activation_2_activation_3_activation_4_activation_5_ats.npy filter=lfs diff=lfs merge=lfs -text
+experiments/replication/selfchecker/1/CIFAR10/valid_activation_1_activation_2_activation_3_activation_4_activation_5_ats.npy filter=lfs diff=lfs merge=lfs -text
+experiments/replication/selfchecker/1/CIFAR10/kdes-pack/activation_7 filter=lfs diff=lfs merge=lfs -text
+experiments/comparison/deepinfer/1/CIFAR10/val_features.csv filter=lfs diff=lfs merge=lfs -text
+experiments/comparison/deepinfer/1/CIFAR10/test_features.csv filter=lfs diff=lfs merge=lfs -text
+experiments/comparison/selfchecker/1/CIFAR10/train_dense_1_activation_7_dense_2_activation_8_dense_3_ats.npy filter=lfs diff=lfs merge=lfs -text
+experiments/comparison/selfchecker/1/CIFAR10/test_dense_1_activation_7_dense_2_activation_8_dense_3_ats.npy filter=lfs diff=lfs merge=lfs -text
+experiments/comparison/selfchecker/1/CIFAR10/valid_dense_1_activation_7_dense_2_activation_8_dense_3_ats.npy filter=lfs diff=lfs merge=lfs -text
+experiments/comparison/selfchecker/1/CIFAR10/kdes-pack/dense_1 filter=lfs diff=lfs merge=lfs -text
+experiments/comparison/selfchecker/1/CIFAR10/kdes-pack/activation_7 filter=lfs diff=lfs merge=lfs -text
+experiments/comparison/selfchecker/1/CIFAR10/kdes-pack/dense_2 filter=lfs diff=lfs merge=lfs -text
